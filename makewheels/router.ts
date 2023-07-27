@@ -8,7 +8,7 @@ import Doc from "./src/views/Doc.vue"
 const history =createWebHashHistory()
 export const router=createRouter({
     history:history,           
-    routes:[{path:'',component:HomePage}
+    routes:[{path:'/',component:HomePage}
    ,{path:'/Doc',component:Doc,children:[
     {path:'/Switch',component:Switch}
     ,{path:'/Button',component:Button}

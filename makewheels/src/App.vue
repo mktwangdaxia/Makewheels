@@ -1,7 +1,6 @@
 <template>
   <router-view/>
-  <router-link to="/HomePage"></router-link>
-  </template>
+   </template>
 
 <script lang="ts">
 import Switch from "./components/Switch.vue"   
