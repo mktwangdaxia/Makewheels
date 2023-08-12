@@ -11,5 +11,5 @@ export default {
 </script>
 <style>
 .tab2{display: inline-block;}
-.tab2:hover{color:rgb(35, 127, 212)}
+
 </style>

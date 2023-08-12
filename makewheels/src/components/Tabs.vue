@@ -27,4 +27,5 @@ export default {
 </script>
 <style>
 .盒子{height:300px;width:350px;}
+.tab2:hover,.tab1:hover{color:rgb(35, 127, 212)}
 </style>
