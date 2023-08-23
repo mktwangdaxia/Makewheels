@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="打开">打开对话框</button>
+        <button @click="打开" tabindex="2">打开对话框</button>
         <div class="对话框" v-if="i">
             <div><b>1</b></div>
             <div><b>2</b></div>
@@ -20,4 +20,6 @@ export default {
     width: 120px;
     height: 70px;
     background-color: bisque;
-}</style>
+}
+
+</style>

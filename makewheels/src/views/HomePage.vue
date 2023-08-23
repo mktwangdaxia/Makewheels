@@ -2,7 +2,7 @@
     <div
         style="height:calc(100%);display:flex;flex-direction: column;position:relative;justify-content:center;background-color:rgba(229, 148, 132, 0.859);align-items:center;flex-wrap:wrap;">
     　
-        　 <h1>你好!欢迎使用我的简易组件库</h1>
+        　 <h1>你好!欢迎使用我的简易UI库</h1>
         　  <div>
             　 <a href="https://github.com/mktwangdaxia/Makewheels">
                 　 <svg class="icon" aria-hidden="true"  style="font-size:100px;">
@@ -30,7 +30,7 @@
                 <svg class="icon b" aria-hidden="true">
                     　 <use xlink:href="#icon-custom308"></use>
                     　 </svg>
-                <div style="vertical-align:6px;font-weight:bold;display:inline-block;margin-top: 40px;">大侠的组件库</div>
+                <div style="vertical-align:6px;font-weight:bold;display:inline-block;margin-top: 40px;">大侠的UI库</div>
             </router-link>
            　 
         </div>

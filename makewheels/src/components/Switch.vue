@@ -24,7 +24,7 @@ export default {
    box-shadow: 0 0 2px 1px #9fb1c5;
    padding: 0px;
    transition: padding-left 400ms}
- 转换装置:focus {
+ .转换装置:focus {
    border: 0 none;
    outline: none;
    box-shadow: 0 0 1px 1px #9fb1c5;
