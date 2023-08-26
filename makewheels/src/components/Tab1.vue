@@ -9,7 +9,12 @@
         <div class="蓝条" ref="bbb"> </div>
         <hr>
      <component  v-for="(c,index) in tab_set"  :is="c" :i="i[index]" :key="index"  ></component>
-    </div>
+      <div style="margin-top: 10px;text-align: center;"><input type="button" id="绑定" ></div>
+      
+      <div class="代码" for="绑定" ></div>
+   </div>
+  
+  
 </template>     
 <script lang="ts">
 import { useSlots, ref, onMounted} from "vue"
@@ -17,9 +22,10 @@ import Tab2 from "./Tab2.vue"
 
 export default {
   
-    data(){return {i:[true,false],p:10}},    //怎么能让data的变量能以data中的变量为自己的值，data好像获取不到自己的变量
+    data(){return {i:[true,false],p:10,g:false}},    //怎么能让data的变量能以data中的变量为自己的值，data好像获取不到自己的变量
 methods:{
-f2(){if(this.i[0]==false){this.i[0]=true,this.i[1]=false;}},  //为什么在f2，f3函数后添加 this.p=++this.p 后a1,a2的selected类就添加不了了啊
+
+    f2(){if(this.i[0]==false){this.i[0]=true,this.i[1]=false;}},  //为什么在f2，f3函数后添加 this.p=++this.p 后a1,a2的selected类就添加不了了啊
 f3(){ if(this.i[1]==false){this.i[0]=false,this.i[1]=true;}}   //
 },
    setup() {
@@ -82,8 +88,9 @@ f3(){ if(this.i[1]==false){this.i[0]=false,this.i[1]=true;}}   //
 .tab {
     display: inline-block;
     font-size: large;
-
+    
 }
+.tab1{position:absolute;left:15vw;top:40px;}
 
 hr {
     outline: none;
@@ -91,7 +98,7 @@ hr {
     margin: 0px;
     width: 99%;
 }
-
+.代码{width:60vw;height:530px;background-color: antiquewhite;position: absolute;margin-top: 10px;left:-10vw}
 .selected {
     color: rgb(30, 107, 103);
 }

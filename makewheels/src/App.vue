@@ -1,5 +1,5 @@
 <template>
-  <router-view />
+  <router-view class="aba"/>
  
 </template>
 
@@ -9,7 +9,7 @@ export default {
  
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 
 
 

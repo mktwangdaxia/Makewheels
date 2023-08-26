@@ -1,18 +1,25 @@
 <template>
-    <div>
-        <h1>示例1</h1>
+   <div style="padding-left: 3vw;"> <h1>示例1</h1>
         <button theme="text">你好</button>
         &nbsp;<button theme="button">你好</button>
         &nbsp;<button theme="link">你好</button>
+        <hr>
         <h2>示例2</h2>
         <button class="big">大大大</button>
         &nbsp; <button class="small">小小小</button>
         &nbsp;<button class="normal">正常</button>
+      <hr>
         <h3>示例3</h3>
         <button :disabled="true">禁用标签</button>
+        <hr>
         <h1>示例4</h1>
         <button><span class="loadingIndicator"></span>加载中</button>
-    </div>
+    <hr>
+        <div style="margin-top: 1em;"><button>查看代码</button></div>
+    <div style="width:60vw;background-color:antiquewhite;margin-top:10px;height:400px;"></div>        
+</div>
+   
+    
 </template>
 <script lang="ts">
 export default {
@@ -20,6 +27,8 @@ export default {
 }
 </script>
 <style>
+
+
 .big {
     font-size: large;
     color: rgb(64, 41, 209);
