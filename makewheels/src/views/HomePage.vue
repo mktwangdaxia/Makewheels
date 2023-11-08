@@ -3,9 +3,10 @@
    <div class="vvv">
     　<div class="圆形">
         　 <h1 style="margin-top:0px;">你好!欢迎使用我的简易UI库</h1>
-        　  <div style="display:block">
-            　 <a href="https://github.com/mktwangdaxia/Makewheels">
-                　 <svg class="icon" aria-hidden="true"  style="font-size:100px;">
+        　
+           <div class="git">
+            　 <a href="https://github.com/mktwangdaxia/Makewheels" >
+                　 <svg class="icon git" aria-hidden="true"  >
                     　 <use xlink:href="#icon-github2"  ></use>
                     　 </svg>
                 　 </a>
@@ -30,7 +31,7 @@
                 <svg class="icon b" aria-hidden="true">
                     　 <use xlink:href="#icon-custom308"></use>
                     　 </svg>
-                <div style="vertical-align:6px;font-weight:bold;display:inline-block;margin-top: 40px;">大侠的UI库</div>
+                <div style="vertical-align:6px;font-weight:bold;display:inline-block;margin-top: 40px;color: rgba(64, 69, 68, 0.875);">大侠的UI库</div>
             </router-link>
            　 
         </div>
@@ -40,6 +41,7 @@
 
 
 <style lang="scss" scoped>
+.git{display:block;width:100px;height:100px;display: inline-block;}
 
 a{text-decoration: none;}
 .a {
@@ -59,10 +61,10 @@ clip-path:ellipse(80% 60% at 50% 40%);
 
 height:300px;
 margin-top: -36px;
-background: linear-gradient(to top,rgb(253, 248, 176) 4% , rgb(166, 204, 148))
+background: linear-gradient(to top,rgb(194, 175, 35) ,rgb(215, 170, 170) 37%,rgba(173, 75, 75, 0.851) 60%,rgb(107, 13, 148) 90%)
 }
 h1 {
-    color: rgba(64, 69, 68, 0.875);
+    color:rgb(215, 167, 127);
     font-family: serif;
 }
 
@@ -72,18 +74,10 @@ h1 {
 .c{vertical-align:35%;display:inline-block;}
 .vvv{ 
       
-    background:linear-gradient(170deg,rgb(169, 116, 185)  10%,rgb(251, 137, 192)  );
-  
-   
-//    background:linear-gradient(217deg, rgb(255,0,0,0.8), rgba(255,0,0,0) 70.71% ),
-//    linear-gradient(127deg, rgb(0,255,0,0.8), rgba(0,255,0,0) 70.71% ),
-//    linear-gradient(336deg, rgb(0,0,255,0.8), rgba(0,0,255,0) 70.71%);
-
-
-
-      height:100%;
-      text-align: center;
-      overflow-y:auto   
+    background: 22%,rgb(251, 137, 192) ;
+    height:100%;
+    text-align: center;
+     
 }
 </style>
  
