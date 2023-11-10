@@ -102,4 +102,5 @@ a{text-decoration:none;color:rgba(8, 83, 49, 0.897);}
 .gg{display: block;left:22px ;grid-area:1/1/2/3;background-color: rgb(159, 124, 124);padding-left: 10px;padding-top: 6px;position:sticky;top:0;}
 
 }
+@media (max-width:388px){.边框{grid-area:2/1/3/3}}
 </style>

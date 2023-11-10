@@ -2,7 +2,7 @@
     <div class="tab2" v-show="i">
 <slot></slot>
     </div>
-    
+   
 </template>
 <script lang="ts">
 

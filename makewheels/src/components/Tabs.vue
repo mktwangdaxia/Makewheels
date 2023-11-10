@@ -1,5 +1,6 @@
 <template>
-    <div class="盒子">
+   <div style="position: absolute;"></div>
+   <div>
         
         <Tab1 :fa="fa">
             <Tab2 title="导航一">内容1</Tab2>
@@ -26,7 +27,7 @@ export default {
 }
 </script>
 <style>
-.盒子 {position:absolute;}
+
 </style>
 
 

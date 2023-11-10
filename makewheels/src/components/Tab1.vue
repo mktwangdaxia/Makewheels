@@ -1,4 +1,6 @@
 <template>
+    
+    <div style="width:1vw;height:960px;background-color: rgb(188, 192, 156);left: 150px;" v-if="e2"></div>
     <div class="tab1">
         <div class="vvv">
             <div class="框">
@@ -113,7 +115,7 @@ export default {
 
 .tab1 {
     position: absolute;
-    left: 15vw;
+    left: 34vw;
     top: 40px;
 }
 
@@ -139,7 +141,11 @@ hr {
 @media(max-width:820px) {
 .vvv{width:60vw;margin-left:-10vw;}
 .代码{width:70vw;margin-left:-4vw;}
-
+.tab1 {
+   
+    left: 16vw;
+   
+}
 .vc, .蓝条{margin-left:-10vw;}
 
 }

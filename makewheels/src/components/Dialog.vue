@@ -6,7 +6,7 @@
         <button @click="i = open(i)">打开对话框</button>&nbsp;
         <input class="d" type="button"
                     :value="e3" @mousedown="e4 = fa(e2, e3); e2 = e4[0]; e3 = e4[1]"></div>
-        <hr/>
+        
      <div class="iu">  <p> <b>一键打开Diolog</b></p>
     <button @click="i = open(i)">打开对话框</button>&nbsp;
     <input class="d" type="button"
