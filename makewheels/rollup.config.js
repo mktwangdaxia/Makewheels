@@ -12,13 +12,13 @@ export default {
     globals: {
       vue: 'Vue'
     },
-    name: 'Gulu',
-    file: 'dist/lib/gulu.js',
+    name: 'Daxia',
+    file: 'dist/lib/daxia.js',
     format: 'umd',
     plugins: [terser()]
   }, {
-    name: 'Gulu',
-    file: 'dist/lib/gulu.esm.js',
+    name: 'Daxia',
+    file: 'dist/lib/daxia.esm.js',
     format: 'es',
     plugins: [terser()]
   }],

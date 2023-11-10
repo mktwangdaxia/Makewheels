@@ -1,8 +1,25 @@
 <demo>sss</demo>
 <template>
-   <div class="a c "> 
-      <button class="转换装置" disabled >
-      <span class="按钮2" ></span>
-   </button>
- </div>
-</template>
+   <Switch v-model:value="bool" disabled />
+   </template>
+   
+   <script lang="ts">
+   import {
+     Switch
+   } from '../lib/index'
+   import {
+     ref
+   } from 'vue'
+   export default {
+     components: {
+       Switch,
+     },
+     setup() {
+       const bool = ref(false)
+       return {
+         bool
+       }
+     }
+   }
+   </script>
+   

@@ -2,17 +2,34 @@
     fff
 </demo>
 <template>
-    <div class="盒子">
-        
-        <Tab1>
-            <Tab2 title="导航一">内容1</Tab2>
-            <Tab2 title="导航二">内容2</Tab2>
-
-        </Tab1>
-
-    </div>
-</template>
-
+    <Tabs v-model:selected="x">
+      <Tab title="导航1">内容1</Tab>
+      <Tab title="导航2">内容2</Tab>
+    </Tabs>
+    </template>
+    
+    <script lang="ts">
+    import {
+      Tabs,
+      Tab
+    } from "../lib/index";
+    import {
+      ref
+    } from 'vue'
+    export default {
+      components: {
+        Tabs,
+        Tab
+      },
+      setup() {
+        const x = ref('导航2')
+        return {
+          x
+        }
+      }
+    }
+    </script>
+    
 
 
 

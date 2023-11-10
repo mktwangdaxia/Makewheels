@@ -1,9 +1,0 @@
-<demo>
-    aaa
-</demo>
-<template>
-    <div>
-        aaa
-    </div>
-    <div></div>
-</template>
